@@ -1,0 +1,92 @@
+body{
+    background: url(res/image/6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#page-top{
+    margin:1rem auto;
+    /* From https://css.glass */
+    background: url(res/image/leaves.jpg) rgba(255, 255, 255, 0.2);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: bottom center;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+#lang-menu a{
+    display: block;
+    margin:.25rem;
+}
+
+#main-menu{
+    background-color: #279b37;
+    border-top:1px solid #fff;
+}
+
+#main-menu a{
+    display: block;
+    padding:1rem;
+    color:#fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+#main-menu a:hover,
+#main-menu .active{
+    background-color: #84bd00;
+}
+
+#page-content{
+    margin:1rem auto;
+    padding:1rem;
+    /* From https://css.glass */
+    background:rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border:.25rem solid hsla(128, 60%, 38%, 0.3);
+}
+
+.card{
+    background-color: hsla(0, 0%, 100%, 0.7);
+    margin:.5rem;
+    padding:.5rem;
+}
+
+.card h2{
+    background-color: #e4002b;
+    padding:.5rem;
+    color:#fff;
+}
+.card img{
+    width: 100%;
+}
+
+footer h3{
+    margin-top:2rem;
+    margin-bottom:1rem;
+    font-family: sans-serif;
+    border-bottom: #caccd1 solid 1px;
+
+}
+
+.footer-satir1{
+    height: 250px;
+}
+
+.footer-satir2{
+    background: url(res/image/AltTaban3.png);
+    background-size: 100% ;
+    padding-top:100px;
+}
+
+#social-menu a{
+    display: block;
+    color:#222;
+    padding:.25rem;
+}

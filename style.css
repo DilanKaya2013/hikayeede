@@ -1,0 +1,58 @@
+body{
+    background-image: url("../res/image/arkaplan.png");
+    background-size: cover;
+    min-height: 100vh;
+}
+header{
+    background-image: url("../res/image/header.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    margin-top: 30px;
+    margin-inline: 10px;
+    box-shadow: 0 0 5px #ccc;
+    border-bottom: solid red 3px;
+}
+#ana-menu{
+    background-color: #fff;
+    margin-inline: 10px;
+}
+#ana-menu a{
+    color: #666;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;   
+}
+main{
+    margin-top: 10px;
+}
+.card{
+    background-color: #ffffff99;
+    box-shadow: 0 0 5px #ccc;
+    padding: 40px;
+    text-align: center;
+    margin: 10px;
+}
+.urun-ad{
+    background-color: rgb(161, 3, 3);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    box-shadow: 0 0 5px black;
+    width: 200px;
+    position: relative;
+    left: -40px;
+    padding: 10px;
+}
+footer{
+    background-image: url("../res/image/AltTaban3.png");
+    padding: 20px 0;
+    background-size: cover;
+}
+footer a{
+    display: block;
+    padding: 10px;
+    font-size: 2rem;
+    color: rgb(0, 63, 0);
+}
